@@ -22,8 +22,8 @@ function adicionar() {
 
 function sortear() {
 
-    if (listaAmigos.length <= 2) {
-        alert("A Lista tem que ter pelo menos 3 participantes para sorteio!")
+    if (listaAmigos.length < 4) {
+        alert("A Lista tem que ter pelo menos 4 participantes para sorteio!")
     } else {
 
         for (let i = listaAmigos.length; i; i--) {
